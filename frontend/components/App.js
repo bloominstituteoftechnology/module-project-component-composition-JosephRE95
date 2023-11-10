@@ -39,8 +39,6 @@ function App() {
      <Card 
      title={apod.title}
      text={apod.explanation}
-     />
-     <Figure
      imageURL={apod.url}
      date={apod.date}
      />
